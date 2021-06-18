@@ -17,10 +17,10 @@ build:
 
 requirements:
   host:
-    - python >=3.6,!=3.9.5
+    - python >=3.6,!=3.9.5,!=3.8.10
     - pip
   run:
-    - python >=3.6,!=3.9.5
+    - python >=3.6,!=3.9.5,!=3.8.10
     - cython
     - dask
     - databroker
