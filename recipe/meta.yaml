@@ -37,6 +37,7 @@ requirements:
     - theano
     - tifffile
     - tqdm
+    - xray-vision
 
 test:
   imports:
