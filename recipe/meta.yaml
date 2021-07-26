@@ -1,6 +1,6 @@
 {% set name = "pyCHX" %}
-{% set version = "4.0.10" %}
-{% set sha256 = "bbd5a69119b2b32371edf5363583f3c92933aa7660360543638d6c6ede130228" %}
+{% set version = "4.0.11" %}
+{% set sha256 = "29b7dae9cedc42442be74f8515a135ecfa5ddf761bcd043cc7ab6d67f9a6590f" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps
 
