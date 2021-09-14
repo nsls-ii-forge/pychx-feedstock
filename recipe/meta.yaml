@@ -1,6 +1,6 @@
 {% set name = "pyCHX" %}
-{% set version = "4.0.11" %}
-{% set sha256 = "29b7dae9cedc42442be74f8515a135ecfa5ddf761bcd043cc7ab6d67f9a6590f" %}
+{% set version = "4.1.0" %}
+{% set sha256 = "2760514ef23f1c1a4b02b5d9e17d5fb5fc2f77021c9b423e7ff4b54bd5c2e7e5" %}
 
 package:
   name: {{ name|lower }}
